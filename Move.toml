@@ -1,0 +1,15 @@
+[package]
+name = "decentralized-Mssg-App"
+version = "1.0.0"
+authors = []
+
+[addresses]
+decentralized_Mssg_App = '0xf550769ee0136d91912116e7775faabd9ef25570dd05bf19bf4cde0c7a47e81c'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
